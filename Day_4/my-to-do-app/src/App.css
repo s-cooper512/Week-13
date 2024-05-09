@@ -1,0 +1,45 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.todo-container {
+  margin: 20px auto;
+  width: 300px;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.red {
+  background-color: #d9534f;
+  color: white;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin-bottom: 5px;
+}
+
+.todo-list button {
+  margin-left: 10px;
+}
