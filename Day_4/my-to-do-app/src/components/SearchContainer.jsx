@@ -22,6 +22,7 @@ function SearchContainer({ todos }) {
         {filteredTodos.map((todo, index) => (
           <li key={index}>{todo}</li>
         ))}
+        {filteredTodos.length === 0 && <li>No matching tasks found</li>}
       </ul>
     </div>
   );
