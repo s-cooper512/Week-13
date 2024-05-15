@@ -1,10 +1,9 @@
-// ToDoContainer.jsx
+// HomeContainer.jsx
 import React, { useState } from 'react';
 import ButtonComponent from './ButtonComponent';
 import ListComponent from './ListComponent';
-import SearchContainer from './SearchContainer';
 
-function ToDoContainer() {
+function HomeContainer() {
   const [todos, setTodos] = useState([]);
   const [inputText, setInputText] = useState('');
 
@@ -39,10 +38,9 @@ function ToDoContainer() {
       />
       <ButtonComponent onClick={handleAddTodo} color="green">Add</ButtonComponent>
       <ButtonComponent onClick={handleClearTodos} color="red">Clear All</ButtonComponent>
-      <SearchContainer todos={todos} />
       <ListComponent todos={todos} onRemoveTodo={handleRemoveTodo} />
     </div>
   );
 }
 
-export default ToDoContainer;
+export default HomeContainer;

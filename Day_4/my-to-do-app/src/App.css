@@ -1,3 +1,4 @@
+/* CSS for basic styling */
 .app {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -42,4 +43,34 @@ input {
 
 .todo-list button {
   margin-left: 10px;
+}
+/* Add this to your CSS file */
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px; /* Adjust as needed */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
 }
